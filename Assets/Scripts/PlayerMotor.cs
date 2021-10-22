@@ -15,6 +15,7 @@ public class PlayerMotor : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
+        Cursor.visible = false;
     }
 
     void FixedUpdate()
